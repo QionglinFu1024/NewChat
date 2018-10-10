@@ -1,0 +1,795 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		342723AD216DD03100125554 /* WBRedEnvelopParamQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3427239D216DB36C00125554 /* WBRedEnvelopParamQueue.m */; };
+		342723AE216DD03100125554 /* WBMultiSelectGroupsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 342723A0216DB36C00125554 /* WBMultiSelectGroupsViewController.m */; };
+		342723AF216DD03100125554 /* WeChatRedEnvelopParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 34272399216DB36C00125554 /* WeChatRedEnvelopParam.m */; };
+		342723B0216DD03100125554 /* WBRedEnvelopConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 34272397216DB36C00125554 /* WBRedEnvelopConfig.m */; };
+		342723B1216DD03100125554 /* WBReceiveRedEnvelopOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 34272392216DB36B00125554 /* WBReceiveRedEnvelopOperation.m */; };
+		342723B2216DD03100125554 /* WBRedEnvelopTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3427239C216DB36C00125554 /* WBRedEnvelopTaskManager.m */; };
+		342723B3216DD03100125554 /* WBSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34272396216DB36C00125554 /* WBSettingViewController.m */; };
+		342723B4216DD03100125554 /* WBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34272393216DB36B00125554 /* WBBaseViewController.m */; };
+		34500590216D9A8E004CCAB2 /* MDConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3450058F216D9A8E004CCAB2 /* MDConfig.plist */; };
+		3450059A216D9A8E004CCAB2 /* libNewChatDylib.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 34500599216D9A8E004CCAB2 /* libNewChatDylib.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3450059F216D9A8E004CCAB2 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3450059E216D9A8E004CCAB2 /* JavaScriptCore.framework */; };
+		345005A1216D9A8E004CCAB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345005A0216D9A8E004CCAB2 /* Foundation.framework */; };
+		345005A3216D9A8E004CCAB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345005A2216D9A8E004CCAB2 /* UIKit.framework */; };
+		345005A8216D9A8E004CCAB2 /* NewChatDylib.mm in Sources */ = {isa = PBXBuildFile; fileRef = 345005A7216D9A8E004CCAB2 /* NewChatDylib.mm */; };
+		345005AB216D9A8E004CCAB2 /* MDConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 345005AA216D9A8E004CCAB2 /* MDConfigManager.h */; };
+		345005AD216D9A8E004CCAB2 /* MDConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 345005AC216D9A8E004CCAB2 /* MDConfigManager.m */; };
+		345005AF216D9A8E004CCAB2 /* MDCycriptManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 345005AE216D9A8E004CCAB2 /* MDCycriptManager.h */; };
+		345005B1216D9A8E004CCAB2 /* MDCycriptManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 345005B0216D9A8E004CCAB2 /* MDCycriptManager.m */; };
+		345005B3216D9A8E004CCAB2 /* MDMethodTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = 345005B2216D9A8E004CCAB2 /* MDMethodTrace.h */; };
+		345005B5216D9A8E004CCAB2 /* MDMethodTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = 345005B4216D9A8E004CCAB2 /* MDMethodTrace.m */; };
+		345005B7216D9A8E004CCAB2 /* ANYMethodLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 345005B6216D9A8E004CCAB2 /* ANYMethodLog.h */; };
+		345005B9216D9A8E004CCAB2 /* ANYMethodLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 345005B8216D9A8E004CCAB2 /* ANYMethodLog.m */; };
+		345005BC216D9A8E004CCAB2 /* LLDBTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 345005BB216D9A8E004CCAB2 /* LLDBTools.h */; };
+		345005BE216D9A8E004CCAB2 /* LLDBTools.mm in Sources */ = {isa = PBXBuildFile; fileRef = 345005BD216D9A8E004CCAB2 /* LLDBTools.mm */; };
+		345005C3216D9A8E004CCAB2 /* AntiAntiDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 345005C2216D9A8E004CCAB2 /* AntiAntiDebug.m */; };
+		345005C6216D9A8E004CCAB2 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 345005C5216D9A8E004CCAB2 /* fishhook.c */; };
+		345005C8216D9A8E004CCAB2 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 345005C7216D9A8E004CCAB2 /* fishhook.h */; };
+		345005CA216D9A8E004CCAB2 /* NewChatDylib.h in Headers */ = {isa = PBXBuildFile; fileRef = 345005C9216D9A8E004CCAB2 /* NewChatDylib.h */; };
+		345005CC216D9A8E004CCAB2 /* NewChatDylib.m in Sources */ = {isa = PBXBuildFile; fileRef = 345005CB216D9A8E004CCAB2 /* NewChatDylib.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3450059B216D9A8E004CCAB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3450057D216D9A8E004CCAB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34500598216D9A8E004CCAB2;
+			remoteInfo = NewChatDylib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		34500585216D9A8E004CCAB2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3450059A216D9A8E004CCAB2 /* libNewChatDylib.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		34272392216DB36B00125554 /* WBReceiveRedEnvelopOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBReceiveRedEnvelopOperation.m; sourceTree = "<group>"; };
+		34272393216DB36B00125554 /* WBBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBBaseViewController.m; sourceTree = "<group>"; };
+		34272394216DB36B00125554 /* WBRedEnvelopParamQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBRedEnvelopParamQueue.h; sourceTree = "<group>"; };
+		34272395216DB36B00125554 /* WBSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBSettingViewController.h; sourceTree = "<group>"; };
+		34272396216DB36C00125554 /* WBSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBSettingViewController.m; sourceTree = "<group>"; };
+		34272397216DB36C00125554 /* WBRedEnvelopConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBRedEnvelopConfig.m; sourceTree = "<group>"; };
+		34272398216DB36C00125554 /* WeChatRedEnvelopParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatRedEnvelopParam.h; sourceTree = "<group>"; };
+		34272399216DB36C00125554 /* WeChatRedEnvelopParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeChatRedEnvelopParam.m; sourceTree = "<group>"; };
+		3427239A216DB36C00125554 /* WBMultiSelectGroupsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBMultiSelectGroupsViewController.h; sourceTree = "<group>"; };
+		3427239B216DB36C00125554 /* WBBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBBaseViewController.h; sourceTree = "<group>"; };
+		3427239C216DB36C00125554 /* WBRedEnvelopTaskManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBRedEnvelopTaskManager.m; sourceTree = "<group>"; };
+		3427239D216DB36C00125554 /* WBRedEnvelopParamQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBRedEnvelopParamQueue.m; sourceTree = "<group>"; };
+		3427239E216DB36C00125554 /* WeChatRedEnvelop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatRedEnvelop.h; sourceTree = "<group>"; };
+		3427239F216DB36C00125554 /* WBRedEnvelopTaskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBRedEnvelopTaskManager.h; sourceTree = "<group>"; };
+		342723A0216DB36C00125554 /* WBMultiSelectGroupsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBMultiSelectGroupsViewController.m; sourceTree = "<group>"; };
+		342723A1216DB36C00125554 /* WBRedEnvelopConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBRedEnvelopConfig.h; sourceTree = "<group>"; };
+		342723A2216DB36D00125554 /* WBReceiveRedEnvelopOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBReceiveRedEnvelopOperation.h; sourceTree = "<group>"; };
+		342723AB216DCB6500125554 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		34500588216D9A8E004CCAB2 /* NewChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3450058B216D9A8E004CCAB2 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		3450058D216D9A8E004CCAB2 /* quick-resign.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "quick-resign.sh"; path = "Scripts/quick-resign.sh"; sourceTree = "<group>"; };
+		3450058F216D9A8E004CCAB2 /* MDConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = MDConfig.plist; path = Config/MDConfig.plist; sourceTree = "<group>"; };
+		34500592216D9A8E004CCAB2 /* put ipa or app here */ = {isa = PBXFileReference; lastKnownFileType = text; name = "put ipa or app here"; path = "TargetApp/put ipa or app here"; sourceTree = "<group>"; };
+		34500593216D9A8E004CCAB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34500599216D9A8E004CCAB2 /* libNewChatDylib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libNewChatDylib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		3450059E216D9A8E004CCAB2 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		345005A0216D9A8E004CCAB2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		345005A2216D9A8E004CCAB2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		345005A6216D9A8E004CCAB2 /* NewChatDylib.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = NewChatDylib.xm; path = Logos/NewChatDylib.xm; sourceTree = "<group>"; };
+		345005A7216D9A8E004CCAB2 /* NewChatDylib.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = NewChatDylib.mm; path = Logos/NewChatDylib.mm; sourceTree = "<group>"; };
+		345005AA216D9A8E004CCAB2 /* MDConfigManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MDConfigManager.h; path = Config/MDConfigManager.h; sourceTree = "<group>"; };
+		345005AC216D9A8E004CCAB2 /* MDConfigManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MDConfigManager.m; path = Config/MDConfigManager.m; sourceTree = "<group>"; };
+		345005AE216D9A8E004CCAB2 /* MDCycriptManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MDCycriptManager.h; path = Config/MDCycriptManager.h; sourceTree = "<group>"; };
+		345005B0216D9A8E004CCAB2 /* MDCycriptManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MDCycriptManager.m; path = Config/MDCycriptManager.m; sourceTree = "<group>"; };
+		345005B2216D9A8E004CCAB2 /* MDMethodTrace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MDMethodTrace.h; path = Config/MDMethodTrace.h; sourceTree = "<group>"; };
+		345005B4216D9A8E004CCAB2 /* MDMethodTrace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MDMethodTrace.m; path = Config/MDMethodTrace.m; sourceTree = "<group>"; };
+		345005B6216D9A8E004CCAB2 /* ANYMethodLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ANYMethodLog.h; path = Config/ANYMethodLog.h; sourceTree = "<group>"; };
+		345005B8216D9A8E004CCAB2 /* ANYMethodLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ANYMethodLog.m; path = Config/ANYMethodLog.m; sourceTree = "<group>"; };
+		345005BB216D9A8E004CCAB2 /* LLDBTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LLDBTools.h; path = Tools/LLDBTools.h; sourceTree = "<group>"; };
+		345005BD216D9A8E004CCAB2 /* LLDBTools.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = LLDBTools.mm; path = Tools/LLDBTools.mm; sourceTree = "<group>"; };
+		345005C0216D9A8E004CCAB2 /* NewChatDylib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewChatDylib-Prefix.pch"; sourceTree = "<group>"; };
+		345005C2216D9A8E004CCAB2 /* AntiAntiDebug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AntiAntiDebug.m; path = AntiAntiDebug/AntiAntiDebug.m; sourceTree = "<group>"; };
+		345005C5216D9A8E004CCAB2 /* fishhook.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fishhook.c; path = fishhook/fishhook.c; sourceTree = "<group>"; };
+		345005C7216D9A8E004CCAB2 /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = fishhook/fishhook.h; sourceTree = "<group>"; };
+		345005C9216D9A8E004CCAB2 /* NewChatDylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewChatDylib.h; sourceTree = "<group>"; };
+		345005CB216D9A8E004CCAB2 /* NewChatDylib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewChatDylib.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34500582216D9A8E004CCAB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34500596216D9A8E004CCAB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3450059F216D9A8E004CCAB2 /* JavaScriptCore.framework in Frameworks */,
+				345005A3216D9A8E004CCAB2 /* UIKit.framework in Frameworks */,
+				345005A1216D9A8E004CCAB2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3450057C216D9A8E004CCAB2 = {
+			isa = PBXGroup;
+			children = (
+				3450058A216D9A8E004CCAB2 /* NewChat */,
+				345005A4216D9A8E004CCAB2 /* NewChatDylib */,
+				3450059D216D9A8E004CCAB2 /* Frameworks */,
+				34500589216D9A8E004CCAB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34500589216D9A8E004CCAB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34500588216D9A8E004CCAB2 /* NewChat.app */,
+				34500599216D9A8E004CCAB2 /* libNewChatDylib.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3450058A216D9A8E004CCAB2 /* NewChat */ = {
+			isa = PBXGroup;
+			children = (
+				3450058B216D9A8E004CCAB2 /* icon.png */,
+				34500593216D9A8E004CCAB2 /* Info.plist */,
+				3450058C216D9A8E004CCAB2 /* Scripts */,
+				3450058E216D9A8E004CCAB2 /* Config */,
+				34500591216D9A8E004CCAB2 /* TargetApp */,
+			);
+			path = NewChat;
+			sourceTree = "<group>";
+		};
+		3450058C216D9A8E004CCAB2 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				3450058D216D9A8E004CCAB2 /* quick-resign.sh */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
+		3450058E216D9A8E004CCAB2 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				3450058F216D9A8E004CCAB2 /* MDConfig.plist */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		34500591216D9A8E004CCAB2 /* TargetApp */ = {
+			isa = PBXGroup;
+			children = (
+				34500592216D9A8E004CCAB2 /* put ipa or app here */,
+			);
+			name = TargetApp;
+			sourceTree = "<group>";
+		};
+		3450059D216D9A8E004CCAB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				342723AB216DCB6500125554 /* libc++.tbd */,
+				3450059E216D9A8E004CCAB2 /* JavaScriptCore.framework */,
+				345005A0216D9A8E004CCAB2 /* Foundation.framework */,
+				345005A2216D9A8E004CCAB2 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		345005A4216D9A8E004CCAB2 /* NewChatDylib */ = {
+			isa = PBXGroup;
+			children = (
+				345005C9216D9A8E004CCAB2 /* NewChatDylib.h */,
+				345005CB216D9A8E004CCAB2 /* NewChatDylib.m */,
+				3427239B216DB36C00125554 /* WBBaseViewController.h */,
+				34272393216DB36B00125554 /* WBBaseViewController.m */,
+				3427239A216DB36C00125554 /* WBMultiSelectGroupsViewController.h */,
+				342723A0216DB36C00125554 /* WBMultiSelectGroupsViewController.m */,
+				342723A2216DB36D00125554 /* WBReceiveRedEnvelopOperation.h */,
+				34272392216DB36B00125554 /* WBReceiveRedEnvelopOperation.m */,
+				342723A1216DB36C00125554 /* WBRedEnvelopConfig.h */,
+				34272397216DB36C00125554 /* WBRedEnvelopConfig.m */,
+				34272394216DB36B00125554 /* WBRedEnvelopParamQueue.h */,
+				3427239D216DB36C00125554 /* WBRedEnvelopParamQueue.m */,
+				3427239F216DB36C00125554 /* WBRedEnvelopTaskManager.h */,
+				3427239C216DB36C00125554 /* WBRedEnvelopTaskManager.m */,
+				34272395216DB36B00125554 /* WBSettingViewController.h */,
+				34272396216DB36C00125554 /* WBSettingViewController.m */,
+				3427239E216DB36C00125554 /* WeChatRedEnvelop.h */,
+				34272398216DB36C00125554 /* WeChatRedEnvelopParam.h */,
+				34272399216DB36C00125554 /* WeChatRedEnvelopParam.m */,
+				345005A5216D9A8E004CCAB2 /* Logos */,
+				345005A9216D9A8E004CCAB2 /* Config */,
+				345005BA216D9A8E004CCAB2 /* Tools */,
+				345005C1216D9A8E004CCAB2 /* AntiAntiDebug */,
+				345005C4216D9A8E004CCAB2 /* fishhook */,
+				345005BF216D9A8E004CCAB2 /* Supporting Files */,
+			);
+			path = NewChatDylib;
+			sourceTree = "<group>";
+		};
+		345005A5216D9A8E004CCAB2 /* Logos */ = {
+			isa = PBXGroup;
+			children = (
+				345005A6216D9A8E004CCAB2 /* NewChatDylib.xm */,
+				345005A7216D9A8E004CCAB2 /* NewChatDylib.mm */,
+			);
+			name = Logos;
+			sourceTree = "<group>";
+		};
+		345005A9216D9A8E004CCAB2 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				345005AA216D9A8E004CCAB2 /* MDConfigManager.h */,
+				345005AC216D9A8E004CCAB2 /* MDConfigManager.m */,
+				345005AE216D9A8E004CCAB2 /* MDCycriptManager.h */,
+				345005B0216D9A8E004CCAB2 /* MDCycriptManager.m */,
+				345005B2216D9A8E004CCAB2 /* MDMethodTrace.h */,
+				345005B4216D9A8E004CCAB2 /* MDMethodTrace.m */,
+				345005B6216D9A8E004CCAB2 /* ANYMethodLog.h */,
+				345005B8216D9A8E004CCAB2 /* ANYMethodLog.m */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		345005BA216D9A8E004CCAB2 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				345005BB216D9A8E004CCAB2 /* LLDBTools.h */,
+				345005BD216D9A8E004CCAB2 /* LLDBTools.mm */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		345005BF216D9A8E004CCAB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				345005C0216D9A8E004CCAB2 /* NewChatDylib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		345005C1216D9A8E004CCAB2 /* AntiAntiDebug */ = {
+			isa = PBXGroup;
+			children = (
+				345005C2216D9A8E004CCAB2 /* AntiAntiDebug.m */,
+			);
+			name = AntiAntiDebug;
+			sourceTree = "<group>";
+		};
+		345005C4216D9A8E004CCAB2 /* fishhook */ = {
+			isa = PBXGroup;
+			children = (
+				345005C5216D9A8E004CCAB2 /* fishhook.c */,
+				345005C7216D9A8E004CCAB2 /* fishhook.h */,
+			);
+			name = fishhook;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		34500597216D9A8E004CCAB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345005AF216D9A8E004CCAB2 /* MDCycriptManager.h in Headers */,
+				345005B3216D9A8E004CCAB2 /* MDMethodTrace.h in Headers */,
+				345005CA216D9A8E004CCAB2 /* NewChatDylib.h in Headers */,
+				345005BC216D9A8E004CCAB2 /* LLDBTools.h in Headers */,
+				345005AB216D9A8E004CCAB2 /* MDConfigManager.h in Headers */,
+				345005B7216D9A8E004CCAB2 /* ANYMethodLog.h in Headers */,
+				345005C8216D9A8E004CCAB2 /* fishhook.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		34500587216D9A8E004CCAB2 /* NewChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 345005D2216D9A8E004CCAB2 /* Build configuration list for PBXNativeTarget "NewChat" */;
+			buildPhases = (
+				34500581216D9A8E004CCAB2 /* Sources */,
+				34500582216D9A8E004CCAB2 /* Frameworks */,
+				34500583216D9A8E004CCAB2 /* ShellScript */,
+				34500584216D9A8E004CCAB2 /* Resources */,
+				34500585216D9A8E004CCAB2 /* CopyFiles */,
+				34500586216D9A8E004CCAB2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3450059C216D9A8E004CCAB2 /* PBXTargetDependency */,
+			);
+			name = NewChat;
+			productName = NewChat;
+			productReference = 34500588216D9A8E004CCAB2 /* NewChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34500598216D9A8E004CCAB2 /* NewChatDylib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 345005CF216D9A8E004CCAB2 /* Build configuration list for PBXNativeTarget "NewChatDylib" */;
+			buildPhases = (
+				34500594216D9A8E004CCAB2 /* ShellScript */,
+				34500595216D9A8E004CCAB2 /* Sources */,
+				34500596216D9A8E004CCAB2 /* Frameworks */,
+				34500597216D9A8E004CCAB2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewChatDylib;
+			productName = NewChatDylib;
+			productReference = 34500599216D9A8E004CCAB2 /* libNewChatDylib.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3450057D216D9A8E004CCAB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Qionglin Fu";
+				TargetAttributes = {
+					34500587216D9A8E004CCAB2 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					34500598216D9A8E004CCAB2 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 34500580216D9A8E004CCAB2 /* Build configuration list for PBXProject "NewChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3450057C216D9A8E004CCAB2;
+			productRefGroup = 34500589216D9A8E004CCAB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34500587216D9A8E004CCAB2 /* NewChat */,
+				34500598216D9A8E004CCAB2 /* NewChatDylib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34500584216D9A8E004CCAB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34500590216D9A8E004CCAB2 /* MDConfig.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34500583216D9A8E004CCAB2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/Tools/pack.sh\n";
+		};
+		34500586216D9A8E004CCAB2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/Tools/pack.sh codesign\n";
+		};
+		34500594216D9A8E004CCAB2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp-logos";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34500581216D9A8E004CCAB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34500595216D9A8E004CCAB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342723AD216DD03100125554 /* WBRedEnvelopParamQueue.m in Sources */,
+				345005B1216D9A8E004CCAB2 /* MDCycriptManager.m in Sources */,
+				345005B9216D9A8E004CCAB2 /* ANYMethodLog.m in Sources */,
+				345005AD216D9A8E004CCAB2 /* MDConfigManager.m in Sources */,
+				342723B1216DD03100125554 /* WBReceiveRedEnvelopOperation.m in Sources */,
+				342723B2216DD03100125554 /* WBRedEnvelopTaskManager.m in Sources */,
+				342723B0216DD03100125554 /* WBRedEnvelopConfig.m in Sources */,
+				342723AE216DD03100125554 /* WBMultiSelectGroupsViewController.m in Sources */,
+				342723B4216DD03100125554 /* WBBaseViewController.m in Sources */,
+				345005BE216D9A8E004CCAB2 /* LLDBTools.mm in Sources */,
+				345005A8216D9A8E004CCAB2 /* NewChatDylib.mm in Sources */,
+				342723B3216DD03100125554 /* WBSettingViewController.m in Sources */,
+				342723AF216DD03100125554 /* WeChatRedEnvelopParam.m in Sources */,
+				345005B5216D9A8E004CCAB2 /* MDMethodTrace.m in Sources */,
+				345005C6216D9A8E004CCAB2 /* fishhook.c in Sources */,
+				345005C3216D9A8E004CCAB2 /* AntiAntiDebug.m in Sources */,
+				345005CC216D9A8E004CCAB2 /* NewChatDylib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3450059C216D9A8E004CCAB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34500598216D9A8E004CCAB2 /* NewChatDylib */;
+			targetProxy = 3450059B216D9A8E004CCAB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		345005CD216D9A8E004CCAB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		345005CE216D9A8E004CCAB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		345005D0216D9A8E004CCAB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7U6LL8RU9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewChatDylib/NewChatDylib-Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libNewChatDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+					"$(PROJECT_DIR)",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"NewChatDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-weak_library",
+					"$(MonkeyDevPath)/Frameworks/libsubstrate.dylib",
+					"-lcycript",
+					"-framework",
+					RevealServer,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		345005D1216D9A8E004CCAB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = C7U6LL8RU9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewChatDylib/NewChatDylib-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libNewChatDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+					"$(PROJECT_DIR)",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"NewChatDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-weak_library",
+					"$(MonkeyDevPath)/Frameworks/libsubstrate.dylib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		345005D3216D9A8E004CCAB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7U6LL8RU9;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = NewChat/Info.plist;
+				MONKEYDEV_ADD_SUBSTRATE = YES;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_DEFAULT_BUNDLEID = NO;
+				MONKEYDEV_INSERT_DYLIB = YES;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				MONKEYDEV_TARGET_APP = Optional;
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"$(inherited)",
+				);
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kejiershou.balance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		345005D4216D9A8E004CCAB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7U6LL8RU9;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = NewChat/Info.plist;
+				MONKEYDEV_ADD_SUBSTRATE = YES;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_DEFAULT_BUNDLEID = NO;
+				MONKEYDEV_INSERT_DYLIB = YES;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				MONKEYDEV_TARGET_APP = Optional;
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"$(inherited)",
+				);
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kejiershou.balance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34500580216D9A8E004CCAB2 /* Build configuration list for PBXProject "NewChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345005CD216D9A8E004CCAB2 /* Debug */,
+				345005CE216D9A8E004CCAB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		345005CF216D9A8E004CCAB2 /* Build configuration list for PBXNativeTarget "NewChatDylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345005D0216D9A8E004CCAB2 /* Debug */,
+				345005D1216D9A8E004CCAB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		345005D2216D9A8E004CCAB2 /* Build configuration list for PBXNativeTarget "NewChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345005D3216D9A8E004CCAB2 /* Debug */,
+				345005D4216D9A8E004CCAB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3450057D216D9A8E004CCAB2 /* Project object */;
+}
